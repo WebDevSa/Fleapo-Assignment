@@ -1,0 +1,47 @@
+body {
+    background-image: url('SkyBlueBG.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.font-family {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-custom {
+    background-color: grey;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+    color: black;
+    font-weight: bold;
+}
+.custom-brand {
+   
+    display: flex;
+    align-items: center;
+}
+
+.brand-line {
+    color:brown;
+    margin-left: 10px; 
+    font-style: italic;
+}
+.highlighted-text {
+    display: inline-block;
+    background-color: grey;
+    color:white;
+    padding: 6px;
+    border-radius: 6px; 
+}
+.bold-black {
+    color: black;
+    font-weight: bold;
+}
+.custom-font-size {
+    font-size: 40px; 
+}
+.content-container {
+    margin-top: 40px;
+}
